@@ -24,7 +24,8 @@ function fizzbuzzPrinter() {
 }
 
 function fizzbuzz(num) {
-  if (num % 3 === 0 && num % 5 === 0) {
+  
+  if (num % 3 === 0 && num % 5 === 0){
     return "FizzBuzz";
   } else if (num % 3 === 0) {
     return "Fizz";
@@ -34,6 +35,8 @@ function fizzbuzz(num) {
     return num;
   }
 }
+
+
 
 /*
   Write a method `reverse_string` that takes one argument, a string, and reverses
